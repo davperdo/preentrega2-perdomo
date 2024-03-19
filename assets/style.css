@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+
+header {
+    width: 80%;
+    padding-top: 50px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    margin-left: 10%;
+    z-index: 1;
+}
+
+
+nav ul {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    margin-top: 62px;
+    padding: 5px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    border: 1px solid #FDFDFD ;
+    border-radius: 21px;
+    background-color: #FDFDFD;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    color: #707070;
+}
+
+nav ul li:hover {
+    display: inline-block;
+    border: 1px solid #FDFDFD ;
+    border-radius: 21px;
+    background-color: #F4F4F4;
+    font-weight: 500;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    color: #707070;
+}
+
+main{
+    width: 80%;
+    margin: 0px auto;
+    padding: auto;
+}
+
+main#principal {
+    margin: 0 auto;
+
+}
+
+.image-1 img {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 42%;
+    margin-right: 42%;
+    margin-top: 15%;
+    width: 16%;
+    text-align: center;
+}
+
+.titulos {
+    color: #707070;
+    text-align: center;
+    font-size: 33px;
+}
+
+section.parrafos{
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.parrafos {
+    color: #707070;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+section.button {
+    margin-top: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.button {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+
+}
+
+.button a span {
+    display: inline-block;
+    background-color: #F4F4F4;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    border-radius: 50px;
+    width: 60%;
+    
+}
+
+.button a span:hover {
+    display: inline-block;
+    background-color: #dedede;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    border-radius: 50px;
+    font-weight: 500;
+    
+}
+
+footer {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: auto;
+    padding-bottom: 2rem;
+}
+
+.barra {
+    height: 2px;
+    width: 100%;
+    background-color: #707070;
+    border-radius: 5px;
+}
+
+.datos {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.cierre {
+    display: inline-block;
+    color: #707070;
+    font-size: 16px;
+
+}
+
+section.logos {
+    display: inline-block;
+    padding-right: 0%;
+    margin-right: 10%;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    vertical-align: middle;
+
+}
+section.logos img {
+    margin-left: 30px;
+
+}
+
+.logo-whatsapp {
+    
+}
+
+.logo-linkedin {
+    margin-bottom: 2px;
+}
+
+.logo-email {
+    margin-bottom: 2px;
+}
+
+/* ABOUT */
+
+main#principal-pages {
+    margin-top: 500px;
+    margin-left: 10%;
+}
+
+.titulos-pages {
+    text-align: left;
+    margin-left: 0px;
+    font-size: 40px;
+    width: 400px;
+    color: #707070;
+    line-height: 44px;
+}
+
+.button-2 {
+    text-align: center;
+    margin-left: 0px;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 1rem;
+
+}
+
+.button-2 a span {
+    display: inline-block;
+    background-color: #F4F4F4;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.button-2 a span:hover {
+    display: inline-block;
+    background-color: #dedede;
+    font-weight: 500;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    width: 200px;
+    
+}
+
+.section-2{
+    width: 100%;
+    margin-top: 50px;
+    display: inline-block;
+}
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section-3 {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.sub-titulos {
+    display: inline-block;
+}
+
+.textos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subir-arriba {
+    margin-top: 1000px;
+
+}
+.subtitulos {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 30px;
+    width: 400px;
+    color: #707070;
+    line-height: 32px;
+}
+
+section.parrafos-about {
+    display: inline-block;
+    width: 770px;
+    margin-right: 0px;
+}
+
+section.parrafos-about p {
+    display: inline-block;
+    width: 770px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #707070;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+.parrafos-about p.subtitulos {
+    color: #707070;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.experiencia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experiencia p.exp-1 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experiencia p.exp-2 {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* WORK */
+
+.portafolio {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.titulos-proyectos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.titulos-proyectos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+    font-size: 25px;
+    text-align: right;
+}
+
+.proyectos {
+    width: 450px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linea {
+    height: 2px;
+    width: 60%;
+    background-color: #707070;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* SERVICES */
+
+.titulos-pages-services {
+    width: 500px;
+    text-align: left;
+    margin-left: 0px;
+    font-size: 40px;
+    color: #707070;
+    line-height: 44px;
+}
+
+.section-2-services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.description-services.description-services {
+    text-align: left;
+    width: 60%;
+    margin-top: 150px;
+}
+
+section.barra {
+    margin-top: 20px;
+}
+
+.parrafos-services {
+    text-align: left;
+    font-size: 25px;
+    color: #707070;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.barra-2 {
+    height: 2px;
+    width: 50%;
+    background-color: #707070;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.separador-1 {
+    height: 2px;
+    width: 100%;
+    background-color: #707070;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section.subtitulo-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.parrafos-services-2 {
+
+    text-align: left;
+    font-size: 25px;
+    color: #707070;
+    font-weight: 300;
+    margin-right: 0px;
+}
+
+.decription-services-2 {
+    width: 60%;
+    margin-right: 0px;
+}
+
+/* CONTACT */
+
+.section-1-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-1 {
+    width: 40%;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: 300;
+    display: block;
+    text-align: left;
+    color: #707070;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    color: #707070;
+    opacity: 60%;
+  }
+
+  
+  button {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: #F4F4F4;
+    color: #707070;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 1px solid #707070;
+    width: 40%;
+  }
+  
+  button:hover {
+    background-color: rgb(219, 219, 219);
+    font-weight: 500;
+  }
+
+  .separador-2 {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  p.exp-1 a{
+    color: #707070;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  p.exp-1 {
+    color: #707070;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  p.exp-2 {
+    color: #707070;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  section.barra {
+    height: 2px;
+    width: 100%;
+    background-color: #707070;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+/* PROYECTOS */
+
+.bold {
+    font-weight: 500;
+}
+
+.description-proyects {
+    color: #707070;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+.mockups {
+    margin-bottom: 4rem;
+}
