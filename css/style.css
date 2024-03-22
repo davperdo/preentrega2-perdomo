@@ -361,7 +361,7 @@ main{
 
     main {
         width: 90%;
-        margin: 0px auto;
+        margin-top: 300px;
         display: flex;
         flex-direction: column;
         text-align: center;
